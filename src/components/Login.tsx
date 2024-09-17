@@ -43,7 +43,7 @@ export function Login() {
               type="email"
               placeholder="a@a.com"
               required
-              className="text-gray-200"
+              className="text-gray-900"
             />
           </div>
           <div className="space-y-2">
@@ -58,7 +58,7 @@ export function Login() {
                 id="password"
                 type="password"
                 required
-                className="text-gray-200"
+                className="text-gray-900"
               />
               <Button
                 variant="ghost"
