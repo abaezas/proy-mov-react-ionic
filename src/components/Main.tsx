@@ -41,8 +41,8 @@ export function Main() {
   useEffect(() => {
     if (!geolocation) return;
     fetchWeather(
-      geolocation.coords.longitude,
-      geolocation.coords.latitude
+      geolocation.coords.latitude,
+      geolocation.coords.longitude
     ).then(setWeather);
   }, [geolocation]);
 
