@@ -68,7 +68,7 @@ export function Main() {
                 <Sun size={48} className="mr-4" />
                 <div>
                   <p className="text-3xl font-bold">
-                    {weather?.main.temp.toString().slice(0, 4)}°C
+                    {weather?.main.temp.toFixed(2)}°C
                   </p>
                   <p>{weather?.weather[0].description}</p>
                 </div>
